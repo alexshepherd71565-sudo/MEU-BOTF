@@ -74,4 +74,10 @@ print(f"📅 Aguardando para enviar a lista às 08:00 no canal {CHAT_ID}")
 
 while True:
     schedule.run_pending()
-    time.sleep(60)
+    time.sleep(60)# ... (todo o seu código de análise acima permanece igual)
+
+# NO FINAL DO ARQUIVO, DEIXE APENAS ISSO:
+if __name__ == "__main__":
+    asyncio.run(analise_diaria_mercado()) 
+    # Mude o nome acima para o nome da sua função principal# ... (todo o seu código de análise acima permanece igual)
+
